@@ -9,18 +9,13 @@ package jogocasa.model;
  *
  * @author cristiano
  */
-public class Jogador extends Personagem {
+public interface Descricao {
 
-    public Jogador(String nome, Lugar lugar) {
-        super(nome, lugar);
+    final String NOME_JOGO = "GAME_COVID V. 19";
+
+    default String descricao() {
+        return "";
     }
-
-    public void chora() {
-
-    }
-
-    public String getNome() {
-        return "JOGADOR:" + getNome();
-    }
-
+    
+    
 }

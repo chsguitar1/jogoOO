@@ -25,5 +25,11 @@ public class Npc extends Personagem{
                 lugar,
                 acoes[r.nextInt(acoes.length)]);
     }
+
+    public static String[] getAcoes() {
+        return acoes;
+    }
+    
+    
     
 }
