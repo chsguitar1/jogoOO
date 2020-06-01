@@ -13,7 +13,7 @@ package jogocasa.model;
 
 public class Personagem  implements Descricao{
     
-    private String nome;
+    protected String nome;
     private Lugar lugar;
     private String acao;
     
@@ -68,7 +68,7 @@ public class Personagem  implements Descricao{
 
     @Override
     public String toString() {
-        return "Personagem{" + "nome=" + nome + ", lugar=" + lugar + ", acao=" + acao + '}';
+        return nome +" ele "+acao;
     }
     
     

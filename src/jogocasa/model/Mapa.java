@@ -53,7 +53,7 @@ public class Mapa {
         
 // iniciar jogadores
         lugarInicialJogador = sala;
-        lugarInicialNpc = banheiro;
+        lugarInicialNpc = cozinha;
 
     }
 

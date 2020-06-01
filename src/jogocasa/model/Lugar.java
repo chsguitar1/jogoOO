@@ -86,10 +86,10 @@ public class Lugar {
         this.personagens = personagens;
     }
 
-    @Override
-    public String toString() {
-        return "Lugar{" + "descricao=" + descricao + ", norte=" + norte + ", sul=" + sul + ", leste=" + leste + ", oeste=" + oeste + ", mensagens=" + mensagens + ", personagens=" + personagens + '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "Lugar{" + "descricao=" + descricao + ", norte=" + norte + ", sul=" + sul + ", leste=" + leste + ", oeste=" + oeste + ", mensagens=" + mensagens + ", personagens=" + personagens + '}';
+//    }
     
     
     
